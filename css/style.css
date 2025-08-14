@@ -1,14 +1,10 @@
 body{
 	background-color:#23272A;
-
 	color:white;
-
 	font-family: 'Noto Sans', sans-serif;
-	font-size:16px;
+	font-size:14px;
 	font-weight:normal;
-
 	line-height:1.6em;
-
 	margin: 0;
 }
 h1{
@@ -16,8 +12,11 @@ h1{
 	text-decoration: underline;
   	text-decoration-color: #ed4245;
 }
+h2,h3,h4{
+	font-size: 1.5em;
+}
 p{
-	margin:5px,10px;
+	margin:5px 10px;
 
 }
 strong{
@@ -26,11 +25,16 @@ strong{
 table{
 	border-left: 5px solid #EB459E;
 	border-radius: 5px;
-	padding: 5px ;
+	padding: 5px;
 	background-color: #30363b;
 	text-align: left;
-	margin: auto;
+	margin: 0 0 20 0;
 	width: 100%;
+}
+table td, table th{
+	padding: 8px 12px;
+	vertical-align: top;
+	text-align: left;
 }
 a{
 	text-decoration: none;
