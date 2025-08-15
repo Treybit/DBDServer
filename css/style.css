@@ -40,7 +40,9 @@ h2,h3,h4{
 }
 p{
 	margin:5px 10px;
-
+}
+dt{
+	font-weight: bold;
 }
 strong{
 	color:#ED4245;
