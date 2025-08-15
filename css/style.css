@@ -8,9 +8,8 @@ body{
 	margin: 0;
 }
 h1{
+	color: #fee75c;
 	text-align: center;
-	text-decoration: underline;
-  	text-decoration-color: #ed4245;
 }
 h2,h3,h4{
 	font-size: 1.5em;
@@ -40,6 +39,7 @@ table td, table th{
 }
 a{
 	text-decoration: none;
+	font-weight: bold;
 	color: #d4d7fc;
 	background-color: #3f4590;
 	padding: 2px;
@@ -51,6 +51,14 @@ a:hover{
 	background-color: #5865F2;
 	padding: 2px;
 	border-radius: 5px;
+}
+dl{
+	border-left: 5px solid #57f287;
+	border-radius: 5px;
+	padding: 5px;
+	background-color: #30363b;
+	text-align: left;
+	margin:auto;	
 }
 .container{
 	width:80%;
