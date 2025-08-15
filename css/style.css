@@ -1,3 +1,16 @@
+header{
+	background-image: url(../images/bg.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	padding: 280px;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 200px; /* Smartphones */
+    }
+}
 body{
 	background-color:#23272A;
 	color:white;
@@ -8,10 +21,11 @@ body{
 	margin: 0;
 }
 h1{
-	color: #fee75c;
+	color: #ed4245;
 	text-align: center;
 	font-size: 2.5em;
 	line-height:1em;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 h2,h3,h4{
 	font-size: 1.5em;
