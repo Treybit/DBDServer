@@ -96,12 +96,12 @@ footer{
 }
 /* Navigation Styling mit ChatGPT*/
 .navbar {
-  position: sticky;              /* bleibt beim Scrollen sichtbar */
+	width:80%;
+	margin: auto;
+  position: sticky;             /* bleibt beim Scrollen sichtbar */
   top: 0;                       /* am oberen Rand */
-  left: 0;
-  width: 100%;                  /* volle Breite */
   display: flex;                /* nebeneinander */
-  justify-content: center;      /* auf Desktop mittig */
+  justify-content: left;        /* auf Desktop mittig */
   flex-wrap: nowrap;            /* kein Umbruch */
   overflow-x: auto;             /* horizontales Scrollen bei zu vielen Links */
   white-space: nowrap;
@@ -109,10 +109,12 @@ footer{
   border-bottom: 4px solid #30363b;
   padding: 18px;
   -webkit-overflow-scrolling: touch; /* weiches Scrollen auf iOS */
-  scrollbar-width: none;        /* Firefox: Scrollbar ausblenden */
+  scrollbar-width: thin;        /* Firefox: dünne Scrollbar */
   z-index: 1000;                /* über Inhalt legen */
 }
-
+.navbar ul {
+  padding-left: 0px;
+}
 .navbar li {
   display: inline;
 }
@@ -122,16 +124,7 @@ footer{
   font-weight: bold;
   color: #ffffff;
   background-color: #23272A;
-  padding: 0 10px;              /* etwas Abstand zwischen den Links */
-}
-/* Mobile: Links linksbündig statt mittig */
-@media (max-width: 1500px) {
-  .navbar {
-    justify-content: flex-start;
-    padding-left: 8px;
-    overflow-x: auto;             /* horizontales Scrollen bei zu vielen Links */
-
-  }
+  padding: 0 16px;              /* etwas Abstand zwischen den Links */
 }
 
 
