@@ -56,46 +56,69 @@
 				<strong>Tipp: </strong>STRG + F und Nutzer-ID sind deine Freunde!
 			</p>
 
-			<dl>
-				<dt>stats</dt>
-				<dd>Zeigt jede volle Stunde die allgemeine Serveraktivität an.</dd>
+			<table>
+    			<thead>
+        			<tr>
+            			<th>Logs</th>
+            			<th>Beschreibung</th>
+        			</tr>
+    			</thead>
+    			<tbody>
+        			<tr>
+            			<td>stats</td>
+            			<td>Zeigt jede volle Stunde die allgemeine Serveraktivität an.</td>
+			        </tr>
+			        <tr>
+			            <td>joingate</td>
+			            <td>Keine Informationen vorhanden</td>
+			        </tr>
+			        <tr>
+			            <td>join-leave</td>
+			            <td>Mit diesem Log siehst du, wann ein Nutzer dem Server beigetreten oder verlassen hat.</td>
+			        </tr>
+			        <tr>
+			            <td>role-log</td>
+			            <td>Hier kannst du sehen, wann welcher Nutzer eine Rolle erhalten hat. Schau doch mal, wann du selbst die Mod-Rolle bekommen hast.</td>
+			        </tr>
+			        <tr>
+			            <td>user-log</td>
+			            <td>Der user-log gibt dir die Möglichkeit zu sehen, wann welcher Nutzer seinen Namen oder sein Profilbild geändert hat.</td>
+			        </tr>
+			        <tr>
+			            <td>chat-log</td>
+			            <td>Der chat-log zeigt, wann welcher Nutzer eine Nachricht geändert oder gelöscht hat. Die Nachrichten können aber auch automatisch von den Bots gelöscht worden sein.</td>
+			        </tr>
+			        <tr>
+			            <td>voice-log</td>
+			            <td>Eines der wichtigsten Logs. Hier kannst du nämlich sehen, welcher Nutzer wann in einem Voice-Channel war und auch Channelhopping manuell selbst feststellen. Wirst du oft nutzen. <strong>Tipp: </strong>du kannst mit hat nur die einzelnen Nutzer sehen z.B. in:voice-log: [Nutzer-ID] hat</td>
+			        </tr>
+			        <tr>
+			            <td>mod-log</td>
+			            <td>Das mod-log ist auch ziemlich wichtig. Hier kannst du eine Nutzer-ID eingeben und siehst welche Strafen ein Nutzer in der Vergangenheit bekommen hat. Bitte mit Vorsicht genießen, da hier Fälle sind, die schon Jahre her sind und somit auch nicht unbedingt beachten werden sollten.</td>
+			        </tr>
+			        <tr>
+			            <td>bot-log</td>
+			            <td>Ist halt ein bot-log.</td>
+			        </tr>
+			        <tr>
+			            <td>transkripte</td>
+			            <td>Haben mittlerweile auch keine große Bedeutung, da wir ein Dashboard haben.</td>
+			        </tr>
+			        <tr>
+			            <td>dm-log</td>
+			            <td>Ist ein Log, welches für die Moderation wichtig ist. Hier schreibst du den Befehl rein und musst auch direkt einen Beweis dazu fügen. Lernst du alles etwas später.</td>
+			        </tr>
+			        <tr>
+			            <td>fremdwerbung-log</td>
+			            <td>Wie der Name es bereits sagt, ermittelt er Fremdwerbung und versucht diese zu löschen.</td>
+			        </tr>
+			        <tr>
+			            <td>bannsystem</td>
+			            <td>Das bannsystem-log zeigt uns gebannte Nutzer, welche von Partnerservern gebannt worden sind. Wir können dann selbst entscheiden, ob wir diese dann auch auf diesem Server nicht haben wollen. Wird aber bitte von dir erstmals nicht benutzt.</td>
+			        </tr>
+			    </tbody>
+			</table>
 
-				<dt>joingate</dt>
-				<dd>Keine Informationen vorhanden</dd>
-
-				<dt>join-leave</dt>
-				<dd>Mit diesem Log siehst du, wann ein Nutzer dem Server beigetreten oder verlassen hat.</dd>
-
-				<dt>role-log</dt>
-				<dd>Hier kannst du sehen, wann welcher Nutzer eine Rolle erhalten hat. Schau doch mal, wann du selbst die Mod-Rolle bekommen hast.</dd>
-
-				<dt>user-log</dt>
-				<dd>Der user-log gibt dir die Möglichkeit zu sehen, wann welcher Nutzer seinen Namen oder sein Profilbild geändert hat.</dd>
-
-				<dt>chat-log</dt>
-				<dd>Der chat-log zeigt, wann welcher Nutzer eine Nachricht geändert oder gelöscht hat. Die Nachrichten können aber auch automatisch von den Bots gelöscht worden sein.</dd>
-
-				<dt>voice-log</dt>
-				<dd>Eines der wichtigsten Logs. Hier kannst du nämlich sehen, welcher Nutzer wann in einem Voice-Channel war und auch Channelhopping manuell selbst feststellen. Wirst du oft nutzen.</dd>
-
-				<dt>mod-log</dt>
-				<dd>Das mod-log ist auch ziemlich wichtig. Hier kannst du eine Nutzer-ID eingeben und siehst welche Strafen ein Nutzer in der Vergangenheit bekommen hat. Bitte mit Vorsicht genießen, da hier Fälle sind, die schon Jahre her sind und somit auch nicht unbedingt beachten werden sollten.</dd>
-
-				<dt>bot-log</dt>
-				<dd>Ist halt ein bot-log.</dd>
-
-				<dt>transkripte</dt>
-				<dd>Haben mittlerweile auch keine große Bedeutung, da wir ein Dashboard haben.</dd>
-
-				<dt>dm-log</dt>
-				<dd>Ist ein Log, welches für die Moderation wichtig ist. Hier schreibst du den Befehl rein und musst auch direkt einen Beweis dazu fügen. Lernst du alles etwas später.</dd>
-
-				<dt>fremdwerbung-log</dt>
-				<dd>Wie der Name es bereits sagt, ermittelt er Fremdwerbung und versucht diese zu löschen.</dd>
-
-				<dt>bannsystem</dt>
-				<dd>Das bannsystem-log zeigt uns gebannte Nutzer, welche von Partnerservern gebannt worden sind. Wir können dann selbst entscheiden, ob wir diese dann auch auf diesem Server nicht haben wollen. Wird aber bitte von dir erstmals nicht benutzt.</dd>
-			</dl>
 			<p>
 				Nun hast du eine Menge an Logs gesehen und weißt ungefähr, was welche Information loggt. Erfahrungsgemäß wirst du aber nur konfrontiert sein mit dem voice-log und dem dm-log. Der Rest ist eher selten im Einsatz, aber kann auch nützlich sein.
 			</p>
