@@ -3,7 +3,7 @@ header{
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-size: cover;
-	padding: 280px;
+	padding: 280px 0;
 }
 
 @media (max-width: 480px) {
@@ -36,6 +36,7 @@ h1{
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
 }
 h2,h3,h4{
+	scroll-margin-top: 100px; /*ChatGPT Vorschlag, damit die Navigation nicht die Überschriften stört*/
 	font-size: 1.5em;
 }
 p{
@@ -92,4 +93,48 @@ footer{
 .container{
 	width:80%;
 	margin:auto;	
+}
+/* Navigation Styling mit ChatGPT*/
+.navbar {
+  position: sticky;              /* bleibt beim Scrollen sichtbar */
+  top: 0;                       /* am oberen Rand */
+  left: 0;
+  width: 100%;                  /* volle Breite */
+  display: flex;                /* nebeneinander */
+  justify-content: center;      /* auf Desktop mittig */
+  flex-wrap: nowrap;            /* kein Umbruch */
+  overflow-x: auto;             /* horizontales Scrollen bei zu vielen Links */
+  white-space: nowrap;
+  background-color: #23272A;
+  border-bottom: 4px solid #30363b;
+  padding: 18px;
+  -webkit-overflow-scrolling: touch; /* weiches Scrollen auf iOS */
+  scrollbar-width: none;        /* Firefox: Scrollbar ausblenden */
+  z-index: 1000;                /* über Inhalt legen */
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #23272A;
+  padding: 0 10px;              /* etwas Abstand zwischen den Links */
+}
+/* Mobile: Links linksbündig statt mittig */
+@media (max-width: 1500px) {
+  .navbar {
+    justify-content: flex-start;
+    padding-left: 8px;
+    overflow-x: auto;             /* horizontales Scrollen bei zu vielen Links */
+
+  }
+}
+
+
+html {
+	scroll-behavior: smooth;
 }
